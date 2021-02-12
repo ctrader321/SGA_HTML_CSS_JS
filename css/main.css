@@ -1,0 +1,17 @@
+h1{
+    color: #777CA8;
+}
+
+h6 {
+    color: #AFBADC;
+}
+
+.top3 {
+    font-size: 20pt;
+    font-weight: 700;
+} 
+figcaption{
+    font-size: 22pt;
+    margin-top: 2px;
+    color: #777ca8;
+}

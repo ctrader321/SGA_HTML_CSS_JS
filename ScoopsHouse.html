@@ -1,0 +1,115 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <!-- bootstrap js  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+  <!-- ============= -->
+  <!-- My css -->
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+
+  <style>
+    body {
+      padding-top: 10%;
+      font-family: 'ABeeZee', sans-serif;
+    }
+
+    #smallCone{
+      width: 100px; height: 100px;
+      transform: rotate(45deg);
+    }
+    .faceb:hover{
+        color: #F092A5;
+        font-weight: bolder;
+    } 
+  </style>
+  <title>Scoop's Ice Cream House | Ice Cream Rankings</title>
+</head>
+
+<body>
+  <!-- Navbar start-->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #BB1924;">
+    <a class="navbar-brand" href="#"><img id="smallCone" src="./images/large_cute-ice-cream-cone.png"/></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./Newsletter.html">Newsletter</a>
+        </li>
+        
+        <!-- dropdown start -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Check Out Our Top 3</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a class="dropdown-item" href="./Belts.html">Belt's Soft Serve</a>
+            <a class="dropdown-item" href="./ScoopsHouse.html">Scoop's Ice Cream House</a>
+            <a class="dropdown-item" href="./SweetnSalt.html">Sweet n' Saulty Ice Cream Parlor</a>
+          </div>
+        </li>
+        <!-- dropdown end -->
+      </ul>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+  
+  <main role="main" class="container" id="main_cont">
+    <header style="text-align: center;">
+      <h1>Welcome to Scoop's Ice Cream House!</h1>
+      <img src="./images/ScoopsTruck.jpg" style="box-shadow:5px 10px 2px #F092A5;"/>
+      <figcaption>Their "Best of Both Worlds Food Truck" is even available for rent or catering!</figcaption>
+  </header>
+  <section>
+      <div style="margin-top: 5em;">
+          <h3>Some quick facts about Scoop's Ice Cream House!</h3>
+          <ul>
+              <li>16 <em>essential</em> flavors all the time, with an additional 8 seasonal or specialty flavors that are always changing!</li>
+              <li>Scoops make's all of their own Ice Cream in-house, they even offer wholesale purchase of current flavors!</li>
+              <li>Check out their Website and Facebook!
+                <ul style="list-style:none;">
+                  <li><a class="faceb" href="https://scoopsicecreamhouse.com/" target="_blank">Website Homepage</a></li>
+                  <li><a class="faceb" href="https://www.facebook.com/scoopsicecreamhouse/" target="_blank">Facebook</a></li>
+                </ul>
+              </li>
+          </ul>
+      </div>
+  </section>
+      
+  <footer style="height: 200px;"></footer>
+    
+
+  </main><!-- /.container -->
+
+
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="/docs/4.6/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <script src="/docs/4.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script> -->
+</body>
+
+</html>
