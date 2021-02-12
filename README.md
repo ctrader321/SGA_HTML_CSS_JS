@@ -3,7 +3,7 @@
 
 My Github : https://github.com/ctrader321
 
-Website link:
+Github Pages: https://ctrader321.github.io/SGA_HTML_CSS_JS/
 
 # Overview Idea
 
